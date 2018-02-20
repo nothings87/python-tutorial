@@ -14,9 +14,13 @@ print("");
 print(">>>response");
 print(response.text);
 
-params={'lang': 'english',
-	'gender': 'male',
-	'company': 'yura'};
+# params={'lang': 'english',
+#	'gender': 'male',
+#	'company': 'yura'};
+
+params={'name': 'eddie',
+	'addr': 'uiwang',
+	'lang': 'korean'};
 
 print(">>>sending GET request with params");
 response = requests.get(URL, params=params);
