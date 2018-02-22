@@ -2,7 +2,7 @@
 
 import requests
 
-URL = 'http://localhost:8000/cgi-bin/post.py'
+URL = 'http://localhost:3000/cgi-bin/post.cgi'
 
 data = {'name': 'Jaegwang Lee',
 	'number': 'seven',
